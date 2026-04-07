@@ -1,26 +1,26 @@
 class Codefidence < Formula
   desc "Structured project knowledge wiki for AI-assisted development"
   homepage "https://github.com/agencedebord/codefidence"
-  version "0.4.2"
+  version "0.5.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agencedebord/codefidence/releases/download/v0.4.2/codefidence-aarch64-apple-darwin.tar.gz"
-      sha256 "8defea2280d3fffd28cfad3248933ede69baf27e55dc2d54ab3ac03ae2866599"
+      url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-aarch64-apple-darwin.tar.gz"
+      sha256 "d145ae7dbff0dba38dd83f08137bcb95d82fc9d06eb5890ce1bbac2f18e038c7"
     else
-      url "https://github.com/agencedebord/codefidence/releases/download/v0.4.2/codefidence-x86_64-apple-darwin.tar.gz"
-      sha256 "6071476a92bb2549d97294613290edf567c8e7b4edc2e1a44d473a569933ae2a"
+      url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-x86_64-apple-darwin.tar.gz"
+      sha256 "f7b47bfed32de0e229822420ca23a65dc8b043b1a9d2bc3c2ff0a085a64941b1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agencedebord/codefidence/releases/download/v0.4.2/codefidence-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7891be3512f25032281e7d174cd7abd3a8044f5be5b3e9fb57d80a73332c0f29"
+      url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e533f00cf838d555af0bc85c43eb4253cd99c58bfc9c37375db4ce191440aea7"
     else
-      url "https://github.com/agencedebord/codefidence/releases/download/v0.4.2/codefidence-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c7647a6fe20884c6740e32cc0404ec5162c681264edffeecb045d641cc59d855"
+      url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a36cc2492e241b8759e12162356d11944b0a79995a5f58f81fb1d0716cbd6547"
     end
   end
 

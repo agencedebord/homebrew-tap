@@ -7,20 +7,20 @@ class Codefidence < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-aarch64-apple-darwin.tar.gz"
-      sha256 "a935321001a052e495e5e078423af5cababaefcf00e559fc5258476a651b94d6"
+      sha256 "370ce6593e7d5d3c358d798d1f87302e646eeb00fe643a4b414576477649815e"
     else
       url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-x86_64-apple-darwin.tar.gz"
-      sha256 "3f407fb83e6f99cbb89d54616b77966caca70562ed59974c66b006ef42382bae"
+      sha256 "dc3073a4da7aeaa0f174d829dafb52621cf3888ece4995c72b0fa72f5dfd020f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cb7947181a7f8e17ea77174417bfad8a0452f56e22f02ac9473664bc77e42c20"
+      sha256 "934da1b3eab1f0bac8d81b3483bbc4d6a971a0a9d18e8f0950b6b661b05e46c4"
     else
       url "https://github.com/agencedebord/codefidence/releases/download/v0.5.0/codefidence-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bc383e3fc2de966e4f187a7d214f34a584e2064c6c5088893d68034f15f25d25"
+      sha256 "a4e54b2088d478e6d8c27454bc52dadbca706368dfcf72d0aa98f31783f60309"
     end
   end
 
